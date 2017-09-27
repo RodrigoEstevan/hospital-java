@@ -6,12 +6,9 @@
 package hospital;
 
 /**
+ *
  * @author 31586899
  */
-public class Apartamento {
-    private int andar;
-    private int numero;
-    private String tipo;
-    private int quantLeitos;
-    private String tipoLeito;
+public class Medico extends Equipe {
+    private int CRM;
 }
