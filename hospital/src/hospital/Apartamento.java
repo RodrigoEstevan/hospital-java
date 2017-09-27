@@ -6,7 +6,6 @@
 package hospital;
 
 /**
- *
  * @author 31586899
  */
 public class Apartamento {
