@@ -1,21 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package hospital;
 
-/**
- *
- * @author 31586899
- */
-public class Hospital {
+import java.util.ArrayList;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class Hospital{
     
-}
+    private final String nome = "Boa Saude";
+    private ArrayList<Apartamento>apto;
+    private ArrayList<Medico>medico;
+        
+    public Hospital(Medico medico){
+            
+        apto = new ArrayList();
+        for(int i=0; i<60; i++){
+            apto.add(new Apartamento(this));
+        }
+        
+        medico = new ArrayList();
+        medico.add(new Medico(this));
+        
+    }//fim objeto Hospital
+    
+    
+
+    public static void main(String[] args) {                     
+        
+    }//fim main
+}//fim classe hospital
