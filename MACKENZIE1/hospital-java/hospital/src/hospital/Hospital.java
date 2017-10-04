@@ -9,7 +9,7 @@ public class Hospital{
     private ArrayList<Apartamento>apto;
     private ArrayList<Medico>medico;
         
-    public Hospital(Medico medico){
+    public Hospital(){
             
         apto = new ArrayList();
         for(int i=0; i<60; i++){
