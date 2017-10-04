@@ -1,0 +1,31 @@
+FACULDADE	DE	COMPUTAÇÃO	E	INFORMÁTICA
+BACHARELADO	EM	CIÊNCIA	DA	COMPUTAÇÃO
+BACHARELADO	EM	SISTEMAS	DE	INFORMAÇÃO
+TECNOLOGO	EM	ANÁLISE	DE	SISTEMAS
+2º	SEMESTRE/2017
+Laboratório:	Modelagem	de	Classes	(Herança)
+1) Primeiramente,	identifique	as	classes	e	os	atributos	do	seguinte	Sistema de	Internamento	
+Hospitalar:
+O	hospital	“Boa	Saúde”	deseja	informatizar	o	sistema	de	internamento	dos	pacientes.	Portanto, seguem	
+os	requisitos	do	sistema:
+• Todo	paciente	que	é	internado	no	hospital	“Boa	Saúde”	precisa	ser	cadastrado	no	sistema	com	
+rg,	nome,	endereço,	fone,	e-mail,	data	de	nascimento,	peso	e	altura;
+• O	Hospital	possui	60	apartamentos	que	por	sua	vez	podem	possuir	mais	de	um	leito. É	necessário	
+saber	o	andar,	o	número, descrição	das	principais	características	do	apto, o	tipo	do	apartamento	
+(standard,	 suíte	 e	 executivo)	 e qtde	 de	 leitos.	 Com	 relação	 aos	 leitos,	 é	 necessário	 saber	 o	
+número	do	leito,	uma	descrição	com	as	caraterísticas	do	leito	e	o	tipo	do	leito	(elétrica, baixa,	
+gatch,	maca,	clinitron,	elétrica	circular...);
+• É	importante	para	o	sistema	controlar	os	médicos	e	enfermeiros	que	atendem	um	determinado	
+paciente, portanto,	é	necessário	cadastrar	para	o	médico	o	CRM,	nome,	endereço,	fone,	e-mail,	
+data	 de	 nascimento,	 especialidade e	 salário.	 Para	 os	 enfermeiros	 é	 necessário	 cadastrar	 o	
+COREM	(Conselho	Regional	de	Enfermagem),	nome,	endereço,	fone,	e-mail,	data	de	nascimento,	
+salário,	 especialidade	 e	 formação	 (Enfermeiro, Técnico	 de	 Enfermagem	 e	 Auxiliar	 de	
+Enfermagem);
+• É	importante	para	o	sistema	controlar	os	internamentos	dos	seus	pacientes (Data	de	entrada,	
+data	de	saída,	hora	de	entrada	e	hora	de	saída,	plano	de	saúde,	valor	diária);
+• É	importante	para	o	sistema	saber	em	que	leito	e	quarto	o	paciente	está	internado.	Uma	vez	
+realizado	o	check-in	do internamento,	o	paciente	não	pode	mudar	de	leito	e	quarto.
+2) Agora,	represente	as	associações,	heranças	e	multiplicidades.
+3) Adicione	a	navegabilidade	das	associações	e,	se	necessário,	modifique	os	 relacionamentos de	
+associação	para	agregação	ou	composição.	
+4) Construa	a	estrutura	do	código-fonte	em	Java
